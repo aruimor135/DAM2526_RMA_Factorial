@@ -40,4 +40,8 @@ public class Factorial {
 
 		return num;
 	}
+
+	private static long factorialBucle(int n) {
+		return n;
+	}
 }
