@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Factorial {
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	private static Scanner sc = new Scanner(System.in);
 
+	public static void main(String[] args) {
 		System.out.print("Introduce un número entero mayor o igual que 0: ");
 		int num = sc.nextInt();
 
@@ -19,4 +19,8 @@ public class Factorial {
 		sc.close();
 	}
 
+	private static int pedirNumero() {
+		System.out.print("Introduce un número entero mayor o igual que 0: ");
+		return sc.nextInt();
+	}
 }
