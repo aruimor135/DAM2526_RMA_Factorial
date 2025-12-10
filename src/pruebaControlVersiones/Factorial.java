@@ -19,7 +19,10 @@ public class Factorial {
 		sc.close();
 
 		System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
+
 		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
+
+		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
 	}
 
 	private static long factorialRec(int n) {
